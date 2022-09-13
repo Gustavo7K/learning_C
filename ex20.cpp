@@ -1,6 +1,6 @@
-/* 22) Faça um programa que calcule a média de quatro números do tipo real e imprima para o aluno 
-se ele está aprovado.
- 	Obs: O aluno será aprovado se a média for maior ou igual a 7. */
+/* 22) FaÃ§a um programa que calcule a mÃ©dia de quatro nÃºmeros do tipo real e imprima para o aluno 
+se ele estÃ¡ aprovado.
+ 	Obs: O aluno serÃ¡ aprovado se a mÃ©dia for maior ou igual a 7. */
 
 # include <stdio.h>
 # include <conio.h>
@@ -20,11 +20,12 @@ int main(){
 	printf("Digite a quarta nota ");
 	scanf("%f",&n4);
 	media=(n1+n2+n3+n4)/4;
-	printf("A média é %.2f",media);
+	printf("A mÃ©dia Ã© %.2f",media);
 	if (media>=7){
-		printf("\n\nVocê está aprovado!");
+		printf("\n\nVocÃª estÃ¡ aprovado!");
 	}
 	else
-		printf("\nVocê está reprovado!");
+		printf("\nVocÃª estÃ¡ reprovado!");
 	getch();
 	return 0;
+}
