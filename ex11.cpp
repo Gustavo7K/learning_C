@@ -1,4 +1,4 @@
-//11. Faça um programa que leia dois valores reais e exiba o primeiro com acréscimo de 30%, e o segundo com desconto de 25%.
+//11.Faça um programa que leia dois valores reais e exiba o primeiro com acréscimo de 30%, e o segundo com desconto de 25%.
 
 # include <stdio.h>
 # include <conio.h>
